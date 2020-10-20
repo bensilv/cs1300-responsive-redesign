@@ -2,7 +2,7 @@
 
 #title {
     text-align: center;
-    color: cornflowerblue;
+    color: deepskyblue;
 }
 
 #title span {
@@ -12,22 +12,46 @@
 }
 
 h2 {
-    color: cornflowerblue;
+    color: deepskyblue;
     font-weight: bolder !important;
+    font-size: 3em;
 }
 
 h3 {
-    font-weight: bold !important
+    font-weight: bold !important;
+    font-size: x-large;
+    margin-top: 1em;
+    margin-bottom: .2em;
+    color: dimgray;
 }
 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: lightskyblue;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs {
+    color: dodgerblue;
+}
+
+.btn-primary {
+    background-color: lightskyblue !important;
+}
+
+.btn-primary:focus {
+    background-color: dodgerblue;
+}
+
+#main-navbar {
+    font-weight: 400;
+}
 
 #main-navbar a.nav-link.active {
-    background-color: lightskyblue;
+    background-color: deepskyblue;
 }
 
 #header {
     height: 30vh;
-    background-color: lightsalmon;
+    background-color: deepskyblue;
     background-image: url("images/big-sur-cropped.jpg");
     background-size: 100%;
     /*background-repeat: round;*/
@@ -60,7 +84,7 @@ h3 {
 
 .badge-salm {
     color: white;
-    background-color: lightskyblue;
+    background-color: deepskyblue;
 }
 
 body {
@@ -70,7 +94,7 @@ body {
 .iframe-div {
     position: relative;
     overflow: hidden;
-    width: 80vw;
+    /*width: 80vw;*/
     padding-top: 56.25%;
 }
 
@@ -80,6 +104,26 @@ iframe {
     left: 0;
     bottom: 0;
     right: 0;
-    width: 85% !important;
+    width: 100% !important;
     height: 100%;
+}
+
+a {
+    color: deepskyblue;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+::selection {
+    background: deepskyblue;
+}
+
+@media (min-width: 992px) {
+    .col-lg-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
