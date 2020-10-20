@@ -1,0 +1,80 @@
+
+
+body, html {
+    height: 100%;
+}
+
+
+#header {
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("images/big-sur-pano.jpg") no-repeat center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 7vw;
+    color: white;
+}
+
+h2 {
+    font-family: 'Fugaz One', cursive;
+    font-weight: 700;
+    margin-top: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.header-btn, .header-btn:hover, .header-btn:focus{
+    background-color: #84b7d6 !important;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #8Ab7d6;
+}
+
+.dropdown-item:hover {
+    background-color: #8Ab7d6;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.navbar {
+    background-color: #84b7d6;
+}
+
+.card-link {
+    color: #84b7d6 !important;
+}
+
+.scroll-right {
+    overflow-x: scroll;
+}
+
+.card {
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.btn-light-blue {
+    background-color: #8Ab7d6 !important;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+    background-color: rgba(0,0,0,0.1);
+}

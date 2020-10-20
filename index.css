@@ -1,0 +1,85 @@
+/* Put your style information here! */
+
+#title {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+#title span {
+    background-color: white;
+    padding: .2em;
+    font-weight: bold;
+}
+
+h2 {
+    color: cornflowerblue;
+    font-weight: bolder !important;
+}
+
+h3 {
+    font-weight: bold !important
+}
+
+
+#main-navbar a.nav-link.active {
+    background-color: lightskyblue;
+}
+
+#header {
+    height: 30vh;
+    background-color: lightsalmon;
+    background-image: url("images/big-sur-cropped.jpg");
+    background-size: 100%;
+    /*background-repeat: round;*/
+    background-attachment: fixed;
+}
+
+.section-card {
+    margin-bottom: 2em;
+    border-radius: .5em;
+}
+
+#main-navbar {
+    top: 10em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: .5em;
+}
+
+#main-content {
+    margin-top: 2em;
+}
+
+.story-card {
+    margin-bottom: 1em;
+}
+
+.subject-card {
+    margin-bottom: 1em;
+}
+
+.badge-salm {
+    color: white;
+    background-color: lightskyblue;
+}
+
+body {
+    position: relative
+}
+
+.iframe-div {
+    position: relative;
+    overflow: hidden;
+    width: 80vw;
+    padding-top: 56.25%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 85% !important;
+    height: 100%;
+}
